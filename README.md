@@ -15,18 +15,33 @@ _The user can enter a number into a form and replaces the inputted number into s
 * _Example Event: User entered a number_
 * _Example Output: Inputted value will take you to another page_
 
+* _User enters the number one and gets back the 1_
+* _Example Event: User entered 1_
+* _Example Output: 1_
+
+* _User enters the number 2 and gets back 1 and 2_
+* _Example Event: User entered 2_
+* _Example Output: 1, 2_
+
 * _The numbers inputted that are divisible by 3 will have a result of that number being replaced with the string "Ping"_
-* _Example Event: User entered 5_
-* _Example Output: 1, 2, Ping, 4, 5_
+* _Example Event: User entered 3_
+* _Example Output: 1, 2, Ping_
 
 * _The numbers inputted that are divisible by 5 will have a result of that number being replaced with the string "pong"_
 * _Example Event: User entered 10_
-* _Example Output: 1, 2, 3, 4, pong, 6, 7, 8, 9, pong_
+* _Example Output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong_
 
 * _Numbers divisible by both 3 and 5 will be have the result of having both ping and pong_
 * _Example Event: User entered 15_
 * _Example Output: 1 , 2, ping , 4 , pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong_
 
+* _If user enters a negative number they are prompted with an error_
+* _Example Event: User enters -10_
+* _Example Output: The page dislays an error_
+
+* _User enters a string and the result will be an error_
+* _Example Event: User enters "Hello"_
+* _Example Output: The page displays the message "Please enter a number"_
 
 
 ## Setup/Installation Requirements
